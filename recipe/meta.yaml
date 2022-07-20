@@ -1,5 +1,5 @@
 {% set name = "tango-gateway" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tango-gateway-{{ version }}.tar.gz
-  sha256: e82a0d260ad26b3e31476568f67996116b94118c163200fc5e1fb1987b9aeae9
+  sha256: 58fc8d32e9364882f96ee46d93ca45e9f6b158f913ec9e555f9fd4d660c54244
 
 build:
   entry_points:
