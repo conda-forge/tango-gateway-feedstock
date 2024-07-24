@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tango-gateway-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tango_gateway-{{ version }}.tar.gz
   sha256: a95de03b58469cd63d7ff0dc2db7fcd0dd5bc6ffd0f035cb90cd56d66a46142b
 
 build:
