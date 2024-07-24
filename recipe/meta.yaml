@@ -1,5 +1,5 @@
 {% set name = "tango-gateway" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tango-gateway-{{ version }}.tar.gz
-  sha256: 58fc8d32e9364882f96ee46d93ca45e9f6b158f913ec9e555f9fd4d660c54244
+  sha256: a95de03b58469cd63d7ff0dc2db7fcd0dd5bc6ffd0f035cb90cd56d66a46142b
 
 build:
   entry_points:
@@ -19,11 +19,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.4
+    - python >=3.9
     - setuptools-scm
   run:
     - aiozmq
-    - python >=3.4
+    - python >=3.9
 
 test:
   imports:
